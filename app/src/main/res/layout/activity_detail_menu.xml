@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nico.nicoalmansya_1202152181_modul2.DetailMenu">
+
+    <TextView
+        android:id="@+id/tv_detailMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_top_logo"
+        android:text="..."
+        android:textSize="@dimen/text_size_head"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_detailFoto"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tv_detailHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Rp. "
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Komposisi : "/>
+
+    <TextView
+        android:id="@+id/tv_detailKomposisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="..."/>
+
+</LinearLayout>
